@@ -1,0 +1,36 @@
+package C2TC;
+
+import java.util.Scanner;
+
+public class switchCase {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the value of first number");
+		int num1 = sc.nextInt();
+		System.out.println("Enter the value of second number");
+		int num2 = sc.nextInt();
+		System.out.println("Enter the Operator");
+		String opr = sc.nextLine();
+		switch(opr) {
+		
+		case "+":
+			System.out.println("Sum of the numbers is:"+ num1+num2);
+		    break;
+		//case "-":
+		//	System.out.println("Sum of the numbers is:"+ num1-num2); 
+			
+		case "*":
+			System.out.println("Sum of the numbers is:"+ num1*num2);
+			break;
+		case "/":
+			System.out.println("Sum of the numbers is:"+ num1/num2);
+			break;
+			
+		}
+		
+		sc.close();
+	}
+
+}

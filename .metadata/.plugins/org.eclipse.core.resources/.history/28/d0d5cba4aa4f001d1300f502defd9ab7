@@ -1,0 +1,22 @@
+package C2TC;
+
+public class Scope {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+       int a =5;           // global variable
+      
+       {  //This is a Scope
+    	   
+    	   int b=10;            //Local variable
+    	   System.out.println(a+b);
+    	   
+       }
+       //We can not Access value of b (Local variable) outside the Scope 
+       
+      // System.out.println(a+b);
+       
+	}
+
+}

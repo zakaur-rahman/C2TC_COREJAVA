@@ -1,0 +1,29 @@
+package C2TC;
+
+public class Student {
+	int roll_no;
+	String name;
+
+	void insertRecord(int r, String n) {
+		roll_no = r;
+		name = n;
+	}
+	void displayInformation() {
+		System.out.println( roll_no+" "+name);
+	}
+}
+class Main{
+	public static void main(String args[]) {
+		// TODO Auto-generated method stub
+        Student s1 = new Student();
+        Student s2 = new Student();
+        Student s3 = new Student();
+        s1.insertRecord(123, "Ahmad");
+        s2.insertRecord(234, "Khan");
+        s3.insertRecord(345, "Asif");
+        s1.displayInformation();
+        s2.displayInformation();
+        s3.displayInformation();
+	}
+
+}

@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+/**
+ * @author zakau
+ *
+ */
+module Fundamentals {
+	requires java.base;
+}
